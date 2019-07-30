@@ -213,14 +213,7 @@ class COCODemo(object):
                 the BoxList via `prediction.fields()`
         """
         result = image.copy()
-        if self.cfg.MODEL.CHAR_ON:
-            predictions, char_predictions = self.compute_prediction(image)
-            char_top_predictions = self.select_top_predictions(char_predictions)    
-            result = self.overlay_boxes(result, char_top_predictions)
-            ext = 'c'
-            result = self.overlay_class_names(result, char_top_predictions, ext)
-        else:
-            predictions = self.compute_prediction(image)
+        predictions = self.compute_prediction(image)
 
         top_predictions = self.select_top_predictions(predictions)
 
@@ -257,15 +250,8 @@ class COCODemo(object):
         image_list = image_list.to(self.device)
         # compute predictions
         height, width = original_image.shape[:-1]
-        if self.cfg.MODEL.CHAR_ON:
-            with torch.no_grad():
-                predictions, char_predictions = self.model(image_list)
-            char_predictions = [o.to(self.cpu_device) for o in char_predictions]
-            char_prediction = char_predictions[0]
-            char_prediction = char_prediction.resize((width, height))
-        else:
-            with torch.no_grad():
-                predictions = self.model(image_list)
+        with torch.no_grad():
+            predictions = self.model(image_list)
 
         predictions = [o.to(self.cpu_device) for o in predictions]
         # always single image is passed at a time
@@ -287,10 +273,7 @@ class COCODemo(object):
             prediction.add_field("ke", kes.kes)
             prediction.add_field("mty", mty)
 
-        if self.cfg.MODEL.CHAR_ON:
-            return prediction, char_prediction
-        else:
-            return prediction
+        return prediction
 
     def select_top_predictions(self, predictions):
         """
