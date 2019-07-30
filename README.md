@@ -9,7 +9,7 @@ This method is served as the foundation for our recent ICDAR 2019 ReCTs competit
 
 # Getting Started
 
-An easy guide for training.
+a basic guide for training.
 
 ## Install anaconda 
 
@@ -49,14 +49,14 @@ unzip under datasets/
 
 After downloading data and pretrained model, run
   ```shell
-  ./quick_train_guide.sh
+  bash quick_train_guide.sh
  ```
 
 ## Test
 
 Run 
  ```shell
- ./my_test.sh
+ bash my_test.sh
 ```
 
 Put kes.json to ic15_TIoU_metric/
@@ -70,7 +70,7 @@ Run
 
 Run 
  ```shell
- ./single_image_demo.sh
+ bash single_image_demo.sh
 ```
 
 # Citation
