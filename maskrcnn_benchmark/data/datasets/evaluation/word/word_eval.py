@@ -137,7 +137,7 @@ def contour_to_xys(cnt, image_shape):
 def mask_to_roRect(mask, img_shape):
     ## convert mask into rotated rect
     e = mask[0, :, :]
-    countours, hier = cv2.findContours(e.clone().numpy(), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_NONE) # Aarlog
+    _, countours, hier = cv2.findContours(e.clone().numpy(), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_NONE) # Aarlog
 
     if len(countours) == 0:
         return np.zeros((1,8))
