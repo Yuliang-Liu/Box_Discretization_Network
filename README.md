@@ -29,8 +29,8 @@ git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 python setup.py build_ext install
 cd $INSTALL_DIR
-git clone https://github.com/Yuliang-Liu/bdn.git
-cd bdn
+git clone https://github.com/Yuliang-Liu/Box_Discretization_Network.git
+cd Box_Discretization_Network
 python setup.py build develop
 ```
 
@@ -43,11 +43,11 @@ unzip under project_root
 
 Prepare data follow COCO format.
 [[Link]](https://drive.google.com/file/d/16rpK9Ql4mZydl1CGPMQXf0Q8YQqtXnX7/view?usp=sharing)
-unzip under project_root
+unzip under datasets/
 
 ## Train
 
-After downloading data and model, run
+After downloading data and pretrained model, run
   ```shell
   ./quick_train_guide.sh
  ```
@@ -75,15 +75,15 @@ Run
 
 # Citation
 If you find our metric useful for your reserach, please cite
-'''
+```
 @article{liu2019omnidirectional,
   title={Omnidirectional Scene Text Detection with Sequential-free Box Discretization},
   author={Liu, Yuliang and Zhang, Sheng and Jin, Lianwen and Xie, Lele and Wu, Yaqiang and Wang, Zhepeng},
   journal={arXiv preprint arXiv:1906.02371},
   year={2019}
 }
-'''
+```
 
 ## Feedback 
-Suggestions and opinions of this metric (both positive and negative) are greatly welcome. Please contact the authors by sending email to 
+Suggestions and discussions are greatly welcome. Please contact the authors by sending email to 
   `liu.yuliang@mail.scut.edu.cn` or `yuliang.liu@adelaide.edu.au`.
