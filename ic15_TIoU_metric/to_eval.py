@@ -84,7 +84,8 @@ for isc in lsc:
 	f.writelines("========= "+str(isc)+":\n")
 	lout = output.split('\n')
 	f.writelines(lout[1]+'\n')
-
+	f.writelines(lout[2]+'\n')
+	
 	if os.path.exists("mb_ch4.zip"):
 		os.remove("mb_ch4.zip")
 	if os.path.exists("mb_ch4_results"):
