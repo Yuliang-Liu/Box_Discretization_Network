@@ -9,7 +9,7 @@ This method is served as the foundation for our recent ICDAR 2019 ReCTs competit
 
 # Getting Started
 
-a basic guide for training.
+A basic guide for train and test. 
 
 ## Install anaconda 
 
@@ -52,7 +52,7 @@ After downloading data and pretrained model, run
   bash quick_train_guide.sh
  ```
 
-## Test
+## Test with [[TIoU]](https://github.com/Yuliang-Liu/TIoU-metric)
 
 Run 
  ```shell
@@ -61,10 +61,12 @@ Run
 
 Put kes.json to ic15_TIoU_metric/
 inside ic15_TIoU_metric/
-Run 
+
+Run (conda deactivate; pip install Polygon2)
  ```shell
  python2 to_eval.py
 ```
+
 
 ## Visualization 
 
