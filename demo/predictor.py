@@ -381,8 +381,7 @@ class COCODemo(object):
             else:
                 print("find none quad", ke, mt)
                 thresh = mask[0, :, :, None]
-                # print("predictor overlay maks2", thresh.shape)
-                contours, hierarchy = cv2.findContours(
+                _, contours, hierarchy = cv2.findContours(
                     thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE
                 )
                 image = cv2.drawContours(image, contours, -1, (0,255,0), 2)
