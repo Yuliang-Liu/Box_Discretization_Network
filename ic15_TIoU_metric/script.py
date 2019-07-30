@@ -443,8 +443,7 @@ def evaluate_method(gtFilePath, submFilePath, evaluationParams):
     iouMethodMetrics = {'iouPrecision':methodPrecision_iou, 'iouRecall':methodRecall_iou,'iouHmean': iouMethodHmean }
     tiouMethodMetrics = {'tiouPrecision':methodPrecision_tiouDt, 'tiouRecall':methodRecall_tiouGt,'tiouHmean': tiouMethodHmean }
     print("recall: ", round(methodRecall,3), "precision: ", round(methodPrecision,3), "hmean: ", round(methodHmean,3))
-    # print('TIoU-metric:')
-    # print("tiouRecall:", round(methodRecall_tiouGt,3), "tiouPrecision:", round(methodPrecision_tiouDt,3), "tiouHmean:", round(tiouMethodHmean,3))
+    print("tiouRecall:", round(methodRecall_tiouGt,3), "tiouPrecision:", round(methodPrecision_tiouDt,3), "tiouHmean:", round(tiouMethodHmean,3))
 
     resDict = {'calculated':True,'Message':'','method': methodMetrics,'per_sample': perSampleMetrics, 'iouMethod': iouMethodMetrics, 'tiouMethod': tiouMethodMetrics}
     
