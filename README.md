@@ -81,7 +81,7 @@ If you find our metric useful for your reserach, please cite
 @article{liu2019omnidirectional,
   title={Omnidirectional Scene Text Detection with Sequential-free Box Discretization},
   author={Liu, Yuliang and Zhang, Sheng and Jin, Lianwen and Xie, Lele and Wu, Yaqiang and Wang, Zhepeng},
-  journal={arXiv preprint arXiv:1906.02371},
+  journal={IJCAI},
   year={2019}
 }
 ```
