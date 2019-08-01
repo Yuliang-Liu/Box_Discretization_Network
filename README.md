@@ -67,6 +67,12 @@ Run (conda deactivate; pip install Polygon2)
  python2 to_eval.py
 ```
 
+Example results: 
+* mask branch 79.4 (test segm.json by changing to_eval.py (line 10: mode=0) ); 
+* kes branch 80.4; 
+* in .yaml, set RESCORING=True -> 80.8;
+* Set RESCORING=True and RESCORING_GAMA=0.8 -> 81.0;
+* The mini example offers a pure baseline that takes less than 4 hours to finalize training with only official training data. One can try many other tricks such as **CROP_PROB_TRAIN**, **ROTATE_PROB_TRAIN**, **USE_DEFORMABLE**, **DEFORMABLE_PSROIPOOLING**, **PNMS**, **MSR**, **PAN** in the project, whcih were all tested effective to improve the results. To achieve state-of-the-art performance, extra data (syntext, MLT, etc.) and proper training strategies are necessary. 
 
 ## Visualization 
 
