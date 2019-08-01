@@ -9,7 +9,7 @@ This method is served as the foundation for our recent ICDAR 2019 ReCTs competit
 
 # Getting Started
 
-A basic example for training and testing. This mini example offers a pure baseline that takes less than 4 hours to finalize training with only official training data. 
+A basic example for training and testing. This mini example offers a pure baseline that takes **less than 4 hours** (with 4 1080 ti) to finalize training with only official training data. 
 
 ## Install anaconda 
 
