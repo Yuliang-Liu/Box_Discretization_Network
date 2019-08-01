@@ -6,6 +6,12 @@ This repository is built on the **pytorch [[maskrcnn_benchmark]](https://github.
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
 
+Comparison on ICDAR 2015 dataset showing different methods’ ability of resistant to the LC issue (by adding rotated pseudo samples). Textboxes++, East, and CTD are Sesitive-to-Label-Sequence methods.
+
+|    |  Textboxes++ [[code]](https://github.com/MhLiao/TextBoxes_plusplus)  |  East [[code]](https://github.com/argman/EAST)  |   CTD [[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector)     |    Ours   | 
+|:--------:  | :-----:   | :----:      |  :-----:     | :-----: |
+| Variances (Hmean)| ↓ 9.7% | ↓ 13.7% | ↓ 24.6% | ↑ 0.3%|
+
 # Getting Started
 
 A basic example for training and testing. This mini example offers a pure baseline that takes **less than 4 hours** (with 4 1080 ti) to finalize training with only official training data. 
