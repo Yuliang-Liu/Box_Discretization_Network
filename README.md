@@ -9,7 +9,7 @@ This method is served as the foundation for our recent ICDAR 2019 ReCTs competit
 
 # Getting Started
 
-A basic guide for train and test. 
+A basic example for training and testing. This mini example offers a pure baseline that takes less than 4 hours to finalize training with only official training data. 
 
 ## Install anaconda 
 
@@ -72,7 +72,7 @@ Example results:
 * kes branch 80.4; 
 * in .yaml, set RESCORING=True -> 80.8;
 * Set RESCORING=True and RESCORING_GAMA=0.8 -> 81.0;
-* The mini example offers a pure baseline that takes less than 4 hours to finalize training with only official training data. One can try many other tricks such as **CROP_PROB_TRAIN**, **ROTATE_PROB_TRAIN**, **USE_DEFORMABLE**, **DEFORMABLE_PSROIPOOLING**, **PNMS**, **MSR**, **PAN** in the project, whcih were all tested effective to improve the results. To achieve state-of-the-art performance, extra data (syntext, MLT, etc.) and proper training strategies are necessary. 
+* One can try many other tricks such as **CROP_PROB_TRAIN**, **ROTATE_PROB_TRAIN**, **USE_DEFORMABLE**, **DEFORMABLE_PSROIPOOLING**, **PNMS**, **MSR**, **PAN** in the project, whcih were all tested effective to improve the results. To achieve state-of-the-art performance, extra data (syntext, MLT, etc.) and proper training strategies are necessary. 
 
 ## Visualization 
 
