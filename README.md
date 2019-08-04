@@ -6,7 +6,9 @@ This repository is built on the **pytorch [[maskrcnn_benchmark]](https://github.
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
 
-Comparison on ICDAR 2015 dataset showing different methods’ ability of resistant to the LC issue (by adding rotated pseudo samples). Textboxes++, East, and CTD are Sesitive-to-Label-Sequence methods.
+The advantages:
+* BDN can directly produce compact quadrilateral detection box. (segmentation-based methods need additional steps to group pixels & such steps usually sensitive to outliers)
+* BDN can avoid label confusion (non-segmentation-based methods are mostly sensitive to label sequence, which can significantly undermine the detection result). Comparison on ICDAR 2015 dataset showing different methods’ ability of resistant to the label confusion issue (by adding rotated pseudo samples). Textboxes++, East, and CTD are all Sesitive-to-Label-Sequence methods.
 
 |    |  Textboxes++ [[code]](https://github.com/MhLiao/TextBoxes_plusplus)  |  East [[code]](https://github.com/argman/EAST)  |   CTD [[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector)     |    Ours   | 
 |:--------:  | :-----:   | :----:      |  :-----:     | :-----: |
