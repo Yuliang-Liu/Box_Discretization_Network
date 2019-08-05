@@ -101,4 +101,4 @@ If you find our metric useful for your reserach, please cite
 
 ## Feedback 
 Suggestions and discussions are greatly welcome. Please contact the authors by sending email to 
-  `liu.yuliang@mail.scut.edu.cn` or `yuliang.liu@adelaide.edu.au`. For non-commercial usage, please contact Prof. Lianwen Jin via lianwen.jin@gmail.com.
+  `liu.yuliang@mail.scut.edu.cn` or `yuliang.liu@adelaide.edu.au`. For commercial usage, please contact Prof. Lianwen Jin via lianwen.jin@gmail.com.
