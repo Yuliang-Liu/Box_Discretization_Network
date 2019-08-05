@@ -89,7 +89,7 @@ Run
 ```
 
 # Citation
-If you find our metric useful for your reserach, please cite
+If you find our method useful for your reserach, please cite
 ```
 @article{liu2019omnidirectional,
   title={Omnidirectional Scene Text Detection with Sequential-free Box Discretization},
