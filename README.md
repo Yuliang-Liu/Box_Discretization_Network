@@ -1,8 +1,9 @@
 # Box_Discretization_Network
 This repository is built on the **pytorch [[maskrcnn_benchmark]](https://github.com/facebookresearch/maskrcnn-benchmark)**. The method is the foundation of our ReCTs-competition method [[link]](https://rrc.cvc.uab.es/?ch=12), which won the **championship**.
 
-PPT link [[Google Drive]](https://drive.google.com/file/d/1xgVx04RNbCbe6f1vCi-ccSqt0Ig07VaK/view?usp=sharing)[[baidu cloud]](https://pan.baidu.com/s/1g_uzMaag1w2LOm1Q_Cgk0g)
+PPT link [[Google Drive]](https://drive.google.com/file/d/1xgVx04RNbCbe6f1vCi-ccSqt0Ig07VaK/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1g_uzMaag1w2LOm1Q_Cgk0g)
 
+HOW TO GENERATRE YOUR OWN **JSON** FILE: [[Google Drive]](https://drive.google.com/file/d/1Rfv1pxDpoFGSqvzxJZCmGfpKhUe8P3Bk/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1eEcczeNP9z5HzmxylkxCmw)
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
 
