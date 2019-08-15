@@ -1,7 +1,7 @@
 # Box_Discretization_Network
 This repository is built on the **pytorch [[maskrcnn_benchmark]](https://github.com/facebookresearch/maskrcnn-benchmark)**. The method is the foundation of our ReCTs-competition method [[link]](https://rrc.cvc.uab.es/?ch=12), which won the **championship**.
 
-* This code currently only supports quadrilateral bounding box detection. The method can now be well generated to the curved text detection, which will also be released in this repository in the future.
+PPT link [[Google Drive]](https://drive.google.com/file/d/1xgVx04RNbCbe6f1vCi-ccSqt0Ig07VaK/view?usp=sharing)[[baidu cloud]](https://pan.baidu.com/s/1g_uzMaag1w2LOm1Q_Cgk0g)
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
