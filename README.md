@@ -41,6 +41,7 @@ git clone https://github.com/Yuliang-Liu/Box_Discretization_Network.git
 cd Box_Discretization_Network
 python setup.py build develop
 ```
+* **MUST USE torchvision=0.2**
 
 ## Pretrained model：
 
