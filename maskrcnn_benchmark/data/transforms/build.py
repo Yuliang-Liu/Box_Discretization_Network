@@ -33,7 +33,7 @@ def build_transforms(cfg, is_train=True):
 
     transform = T.Compose(
         [
-            # T.RandomCrop(crop_prob),
+            T.RandomCrop(crop_prob),
             T.Resize(min_size, max_size),
             T.RandomHorizontalFlip(flip_prob),
             T.RandomRotation(rotate_prob, rotate_degree),
