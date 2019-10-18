@@ -3,7 +3,10 @@ This repository is built on the **pytorch [[maskrcnn_benchmark]](https://github.
 
 PPT link [[Google Drive]](https://drive.google.com/file/d/1xgVx04RNbCbe6f1vCi-ccSqt0Ig07VaK/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1g_uzMaag1w2LOm1Q_Cgk0g)
 
-HOW TO GENERATRE YOUR OWN **JSON** FILE: [[Google Drive]](https://drive.google.com/file/d/1Rfv1pxDpoFGSqvzxJZCmGfpKhUe8P3Bk/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1eEcczeNP9z5HzmxylkxCmw)
+Generate your own **JSON**: [[Google Drive]](https://drive.google.com/file/d/1Rfv1pxDpoFGSqvzxJZCmGfpKhUe8P3Bk/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1eEcczeNP9z5HzmxylkxCmw)
+
+Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/d/1ED4TCXUFqV0fzBX4Cj29B6ndy1dqm1y-/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1i0qngj3L3_Ezygp5KEXDCA&shfl=sharepset)
+
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
 
