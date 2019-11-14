@@ -51,6 +51,8 @@ python setup.py build develop
 [[Link]](https://drive.google.com/file/d/1pBQ53ZNvsdu8byFKDST-de30X5pEFI7C/view?usp=sharing)
 unzip under project_root
 
+（This is ONLY an ImageNet Model With a few iterations on ic15 training data for a stable initialization）
+
 ## ic15 data
 
 Prepare data follow COCO format.
