@@ -7,7 +7,7 @@ Generate your own **JSON**: [[Google Drive]](https://drive.google.com/file/d/1Rf
 
 Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/d/1ED4TCXUFqV0fzBX4Cj29B6ndy1dqm1y-/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1i0qngj3L3_Ezygp5KEXDCA&shfl=sharepset)
 
-🎅 Competition model and config files are scheduled to released on Christmas .
+Competition model and config files will be released soon.
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
