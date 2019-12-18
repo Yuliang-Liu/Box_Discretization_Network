@@ -8,7 +8,7 @@ Generate your own **JSON**: [[Google Drive]](https://drive.google.com/file/d/1Rf
 Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/d/1ED4TCXUFqV0fzBX4Cj29B6ndy1dqm1y-/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1i0qngj3L3_Ezygp5KEXDCA&shfl=sharepset)
 
 Competition model and config files (it needs a lot of video memory):
-* Updated Paper (coming soon)
+* Updated Paper (released soon)
 * Config file [[BaiduYun Link]](https://pan.baidu.com/s/1yKiyFGIQlooc_jGkMECREA). Models below all use this config file except directory. Results below are the multi-scale ensemble results. The very details are described in our updated paper.
 
 * MLT 2017 Model [[BaiduYun Link]](https://pan.baidu.com/s/10p6ka_fYdACAdnlOHZcUSw). 
