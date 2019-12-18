@@ -7,7 +7,24 @@ Generate your own **JSON**: [[Google Drive]](https://drive.google.com/file/d/1Rf
 
 Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/d/1ED4TCXUFqV0fzBX4Cj29B6ndy1dqm1y-/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1i0qngj3L3_Ezygp5KEXDCA&shfl=sharepset)
 
-Competition model and config files will be released soon.
+Competition model and config files (to test, your graphics card needs 32GB video memory):
+* Updated Paper (coming soon)
+* Config file [[BaiduYun Link]](https://pan.baidu.com/s/1yKiyFGIQlooc_jGkMECREA). Models below all use this config file except directory. Results below are the multi-scale ensemble results. The very details are described in our updated paper.
+* MLT 2017 Model [[BaiduYun Link]](https://pan.baidu.com/s/10p6ka_fYdACAdnlOHZcUSw). 
+
+| MLT 2017 | Recall | Precision | Hmean | 
+|:--------:  | :-----:   | :----:      |  :-----:     |
+| BDN| 76.44% | 82.75% | 79.47% | 
+
+* ReCTS 2019 model (update soon) 
+
+| ReCTS | Recall | Precision | Hmean | 
+|:--------:  | :-----:   | :----:      |  :-----:     |
+| BDN| 93.97% | 92.76% | 93.36% | 
+
+* HRSC_2016 model (update soon)
+
+
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
