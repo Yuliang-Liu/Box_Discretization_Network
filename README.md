@@ -12,15 +12,7 @@ Competition model and config files (to test, your graphics card needs 32GB video
 * Config file [[BaiduYun Link]](https://pan.baidu.com/s/1yKiyFGIQlooc_jGkMECREA). Models below all use this config file except directory. Results below are the multi-scale ensemble results. The very details are described in our updated paper.
 * MLT 2017 Model [[BaiduYun Link]](https://pan.baidu.com/s/10p6ka_fYdACAdnlOHZcUSw). 
 
-| MLT 2017 | Recall | Precision | Hmean | 
-|:--------:  | :-----:   | :----:      |  :-----:     |
-| BDN| 76.44% | 82.75% | 79.47% | 
-
 * ReCTS 2019 model (update soon) 
-
-| ReCTS | Recall | Precision | Hmean | 
-|:--------:  | :-----:   | :----:      |  :-----:     |
-| BDN| 93.97% | 92.76% | 93.36% | 
 
 * HRSC_2016 model (update soon)
 
