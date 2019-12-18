@@ -14,7 +14,7 @@ Competition model and config files (it needs a lot of video memory):
 
 * ReCTS 2019 model (update soon) 
 
-* HRSC_2016 model (update soon)
+* HRSC_2016 model [[BaiduYun Link]](https://pan.baidu.com/s/16zEMmRAjrWKtQdDo00rLYw).
 
 
 
