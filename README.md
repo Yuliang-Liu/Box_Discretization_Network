@@ -10,12 +10,25 @@ Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/
 Competition model and config files (it needs a lot of video memory):
 * Updated Paper (coming soon)
 * Config file [[BaiduYun Link]](https://pan.baidu.com/s/1yKiyFGIQlooc_jGkMECREA). Models below all use this config file except directory. Results below are the multi-scale ensemble results. The very details are described in our updated paper.
+
 * MLT 2017 Model [[BaiduYun Link]](https://pan.baidu.com/s/10p6ka_fYdACAdnlOHZcUSw). 
 
-* ReCTS 2019 model (update soon) 
+| MLT 2017 | Recall  | Precision  | Hmean  |
+|:--------:  | :-----:   | :----:      |  :-----:     | 
+| new | 76.44 | 82.75 | 79.47 |
+
+* ReCTS 2019 model [[BaiduYun Link]](https://pan.baidu.com/s/1UaaOd-ByDaqbpVPFlQxw_w)
+
+| ReCTS Detection | Recall  | Precision  | Hmean  |
+|:--------:  | :-----:   | :----:      |  :-----:     | 
+| new | 93.97 | 92.76 | 93.36 |
 
 * HRSC_2016 model [[BaiduYun Link]](https://pan.baidu.com/s/16zEMmRAjrWKtQdDo00rLYw).
 
+| HRSC_2016 | Recall  | Precision  | Hmean  | [TIoU-Hmean](https://github.com/Yuliang-Liu/TIoU-metric) | AP |
+|:--------:  | :-----:   | :----:      |  :-----: | :-----: | :-----: | 
+| IJCAI version | 94.8 | 46.0 | 61.96 | 51.1 | **93.7** |
+| new | 94.1 | 83.8 | **88.65** | **73.3** | 89.22 |
 
 
 # Description
