@@ -8,7 +8,7 @@ Generate your own **JSON**: [[Google Drive]](https://drive.google.com/file/d/1Rf
 Brief introduction (in Chinese): [[Google Drive]](https://drive.google.com/file/d/1ED4TCXUFqV0fzBX4Cj29B6ndy1dqm1y-/view?usp=sharing)[[Baidu Cloud]](https://pan.baidu.com/s/1i0qngj3L3_Ezygp5KEXDCA&shfl=sharepset)
 
 Competition model and config files (it needs a lot of video memory):
-* Updated Paper (released soon)
+* Updated Paper (release soon)
 * Config file [[BaiduYun Link]](https://pan.baidu.com/s/1yKiyFGIQlooc_jGkMECREA). Models below all use this config file except directory. Results below are the multi-scale ensemble results. The very details are described in our updated paper.
 
 * MLT 2017 Model [[BaiduYun Link]](https://pan.baidu.com/s/10p6ka_fYdACAdnlOHZcUSw). 
@@ -30,6 +30,7 @@ Competition model and config files (it needs a lot of video memory):
 | IJCAI version | 94.8 | 46.0 | 61.96 | 51.1 | **93.7** |
 | new | 94.1 | 83.8 | **88.65** | **73.3** | 89.22 |
 
+* Online demo (release soon)
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
@@ -41,6 +42,7 @@ The advantages:
 |    |  Textboxes++ [[code]](https://github.com/MhLiao/TextBoxes_plusplus)  |  East [[code]](https://github.com/argman/EAST)  |   CTD [[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector)     |    Ours   | 
 |:--------:  | :-----:   | :----:      |  :-----:     | :-----: |
 | Variances (Hmean)| ↓ 9.7% | ↓ 13.7% | ↓ 24.6% | ↑ 0.3%|
+
 
 # Getting Started
 
