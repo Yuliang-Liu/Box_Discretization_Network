@@ -30,7 +30,7 @@ Competition model and config files (it needs a lot of video memory):
 | IJCAI version | 94.8 | 46.0 | 61.96 | 51.1 | **93.7** |
 | new | 94.1 | 83.8 | **88.65** | **73.3** | 89.22 |
 
-* Online demo (release soon)
+* Online demo [[SCUT DLVC DEMO]](http://47.101.165.49:7002/text/demo.html)
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
