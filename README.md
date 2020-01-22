@@ -31,7 +31,7 @@ Competition model and config files (it needs a lot of video memory):
 | IJCAI version | 94.8 | 46.0 | 61.96 | 51.1 | **93.7** |
 | new | 94.1 | 83.8 | **88.65** | **73.3** | 89.22 |
 
-* Online demo (coming soon). This demo uses the MLT model provided above. It can detect multi-lingual text but can only recognize English, Chinese, and most of the symbols. 
+* Online demo is updating (the old demo version used a wrong configuration). This demo uses the MLT model provided above. It can detect multi-lingual text but can only recognize English, Chinese, and most of the symbols. 
 
 # Description
 **Please see our paper at [[link]](https://arxiv.org/abs/1906.02371)**. <div align=center><img src="demo/kehead.png" width="50%" ></div>
