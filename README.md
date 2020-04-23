@@ -131,6 +131,12 @@ If you find our method useful for your reserach, please cite
   journal={IJCAI},
   year={2019}
 }
+@article{liu2019exploring,
+  title={Exploring the Capacity of Sequential-free Box Discretization Network for Omnidirectional Scene Text Detection},
+  author={Liu, Yuliang and He, Tong and Chen, Hao and Wang, Xinyu and Luo, Canjie and Zhang, Shuaitao and Shen, Chunhua and Jin, Lianwen},
+  journal={arXiv preprint arXiv:1912.09629},
+  year={2019}
+}
 ```
 
 ## Feedback 
